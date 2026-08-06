@@ -1,0 +1,17 @@
+MVT -> MODEL - VIEW - TEMPLATE
+Fundamentos no desenvolvimento com Django
+    1. Model 
+        -> Database
+            DER 
+    2. View 
+        -> Funções
+            From django import shortcuts import render
+            Def index (request)
+                [Funcionalidades da função]
+            returno render (request) "index.html"
+
+    3. Urls
+        -> São as rotas ex:. /index
+            Path("index",view.index,nome = "index")
+    4. Template
+        -> Html
